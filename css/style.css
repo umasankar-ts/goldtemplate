@@ -266,43 +266,6 @@ p{
     font-size: 1.2em;
 }
 
-/*
-@media only screen and (max-width: 767px) {
-    .wedding-details{ margin-left: 15px; overflow: visible; }
-
-    .wedding-details:after{ left: 0; margin-left: 0px; }
-
-    .w-detail{ width: 100%; padding: 0 0 0 30px; margin: 0 0 30px; }
-
-    .w-detail.left,
-    .w-detail.right{ text-align: left; float: none; }
-
-    .w-detail.right:after,
-    .w-detail.left:after{ left: 0; margin-left: -9px; }
-
-    .section{ padding: 50px 0 20px; }
-
-    .section .heading{ padding-bottom: 20px; }
-
-}*/
-/*@media (min-width: 320px) and (max-width: 480px) {
-    .wedding-details{ margin-left: 15px; overflow: visible; }
-
-    .wedding-details:after{ left: 0; margin-left: 0px; }
-
-    .w-detail{ width: 100%; padding: 0 0 0 30px; margin: 0 0 30px; }
-
-    .w-detail.left,
-    .w-detail.right{ text-align: left; float: none; }
-
-    .w-detail.right:after,
-    .w-detail.left:after{ left: 0; margin-left: -9px; }
-
-    .section{ padding: 50px 0 20px; }
-
-    .section .heading{ padding-bottom: 20px; }
-
-}*/
 .w-detail-font-icon-color{
     color: #00BCD4;
     opacity: 0.6;
@@ -608,14 +571,23 @@ section{
             bottom: 0;
         }
         to {
-            bottom:7030%;
+            bottom:8200%;
         }
     }
     .balloon-image-size{
         height: 50px;
     }
     .loader-container{
-        margin-top: 30vh;
+        margin-top: 42vh;
+    }
+    .profile-card-container {
+        width: 280px;
+    }
+    .profile-card-couple-name {
+        font-size: 1.6em;
+    }
+    .banner-name-padding-top{
+        padding-top: 15px;
     }
 
 }

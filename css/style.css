@@ -1,196 +1,235 @@
 body{
-	background: #00BCD4;
-  font-family: 'ZCOOL XiaoWei', serif;
+    background: #00BCD4;
+    font-family: 'ZCOOL XiaoWei', serif;
 
 }
 
-/*----------------- COMMON CLASS -----------------*/
 
-.margin-top-3-percent{
-	margin-top: 3%;
-}
-.font-bold{
-	font-weight: bold;
-}
-
-.center-text{ 
-	text-align: center; 
-} 
-.heading-text-shadow{
-  text-shadow: 2px 6px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
-}
-.small-heading-shadow{
-   text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
-}
-
-.very-small-shadow{
-  text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
-}
-
-.body-card-shadow{
-   box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
-}
-
-.banner-map-card-shadow{
- box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-}
-
-.card-border-none{
-  border: none;
-}
+/*--------------COMMON CLASS ---------------------*/
 .body-margin{
-  margin: 30px 10px;
-  background: #fff;
+    margin: 30px 10px;
+    background: #fff;
 }
-
-/*-------------title-----------*/
-h2{
-  font-size: 2em;
-}
-/*-------------*/
-h4{
-  font-size: 1.6em;
-}
-p{
-  font-size: 1.7em;
-}
-#image-shadow{
-  -webkit-filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
-  filter:drop-shadow(8px 8px 8px rgba(0,0,0,0.3)); 
-}
-#divider-image-shadow{
-  -webkit-filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.3));
-  filter:drop-shadow(8px 8px 5px rgba(0,0,0,0.3)); 
-}
-
-.padding-5px{
-  padding: 5px;
-}
-.padding-top-bottom{
-  padding-top: 3em;
-  padding-bottom: 3em;
+.body-card-shadow{
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
 }
 .padding-bottom-2em{
-  padding-bottom:  2em;
+    padding-bottom:  2em;
 }
-.no-padding{
-  padding: 0;
+.small-heading-shadow{
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.banner-map-card-shadow{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.card-border-none{
+    border: none;
+}
+.margin-bottom-none{
+    margin-bottom: 0;
+}
+.padding-top-bottom{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.heading-text-shadow{
+    text-shadow: 2px 6px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+}
+.margin-top-3-percent{
+    margin-top: 3%;
+}
+.font-bold{
+    font-weight: bold;
+}
+.padding-5px{
+    padding: 5px;
+}
+h2{
+    font-size: 2em;
+}
+h4{
+    font-size: 1.6em;
+}
+p{
+    font-size: 1.7em;
+}
+#image-shadow{
+    -webkit-filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
+    filter:drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
+}
+#divider-image-shadow{
+    -webkit-filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.3));
+    filter:drop-shadow(8px 8px 5px rgba(0,0,0,0.3));
+}
+.card-radius{
+    border-radius: 50px;
+}
+.padding-x-mobile-none{
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 .padding-left-right{
-  padding-left: 2em;
-  padding-right: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
-
+.very-small-shadow{
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+}
 
 /*----------------- COMMON CLASS END --------------------*/
 
 
+/*-----------------LOADER -------------------------*/
+.loader-container{
+    margin-top: 40vh;
+}
+.loader-image-style{
+    height: 200px;
+}
+
 /*----------------- Header -----------------*/
 .header-padding{
-  padding-top: 1em;
-  padding-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 .header-title{
-  font-size: 2em;
+    font-size: 2em;
 }
 /*----------------- Header END --------------------*/
 
 
-/* --------------Loader Container ---------------*/
-.loader-container{
-  margin-top: 30vh;
-}
-.loader-image-margin{
-  margin-left: 8%;
-}
-/*----------------- BANNER PLACE -----------------*/
+/*----------------- BANNER -----------------*/
 
 .banner-couple-name{
-font-size: 4.5em;
-font-weight: bolder;
-  background: -moz-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
-  background: -webkit-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
-  background: -ms-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    font-size: 4.5em;
+    font-weight: bolder;
+    background: -moz-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
+    background: -webkit-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
+    background: -ms-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
 .banner-couple-description{
-	font-size: 2.3em;  
+    font-size: 2.3em;
 }
 .banner-couple-small-font{
-  font-size: 1.7em;
+    font-size: 1.7em;
 }
 .banner-date-font{
-  font-size: 1.7em;
+    font-size: 1.7em;
 }
 .banner-holding-hand-margin{
-  margin-top: 5%;
+    margin-top: 5%;
 }
 .banner-bride-name-margin{
-  margin-left: -70px;
+    margin-left: -70px;
+}
+
+/*----------------- BANNER END -----------------*/
+
+
+/* ---------------- PROFILE CARD AREA ----------------*/
+
+.profile-card-container {
+    margin: auto;
+    width: 600px;
+    text-align: center;
 }
 
 
+.profile-wrapper:focus {
+    outline: 0;
+}
 
-/*-----------------BANNER PLACE END--------------------*/
+.profile-card {
+    background: white;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+    /*z-index: 9999;*/
+}
 
+
+.profile-card-image {
+    position: relative;
+    height: 230px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.profile-card-bg-image {
+    background-image: url("../images/profile-bg.jpg");
+}
+.profile-card-bg-image img {
+    height: 280px;
+    margin-top: -30px;
+}
+.profile-card-couple-name {
+    font-size: 2em;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.profile-card-short-description {
+    font-size: 1em
+}
+
+/* ---------------- PROFILE CARD AREA END----------------*/
 
 /*---------------- COUNTDOWN TIMER ----------------*/
 
 .align-items-end {
-  align-items: flex-end !important;
+    align-items: flex-end !important;
 }
 
 .justify-content-center {
-  justify-content: center !important;
+    justify-content: center !important;
 }
 
 .counter-clock-shadow {
-  -webkit-box-shadow: 0px 23px 34px -26px black;
-  -moz-box-shadow: 0px 23px 34px -26px black;
-  box-shadow: 0px 23px 34px -26px black;
+    -webkit-box-shadow: 0px 23px 34px -26px black;
+    -moz-box-shadow: 0px 23px 34px -26px black;
+    box-shadow: 0px 23px 34px -26px black;
 }
 
 .counter-clockinner {
-  text-align: center;
-  padding: 30px 0px;
+    text-align: center;
+    padding: 30px 0px;
 }
 
 .counter-clockinner span {
-  font-size: 3.2em;
-  font-weight: 600;
+    font-size: 3.2em;
+    font-weight: 600;
 }
 
 .counter-clockinner .counter-smalltext {
-  color: #777;
-  font-size: 1.2em;
+    color: #777;
+    font-size: 1.2em;
+}
+.counter-clockinner span {
+    background: -moz-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+    background: -webkit-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+    background: -ms-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 768px) {
-  .counter-img {
-    display: none;
-  }
-}
 
- .counter-clockinner span {
-  background: -moz-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
-  background: -webkit-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
-  background: -ms-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 
 /*-----------------COUNTDOWN TIMER END--------------------*/
-
 
 /* ----------------- WEDDING DETAILS AREA -----------------*/
 
 .wedding-details{ overflow: hidden; position: relative; }
 
 .wedding-details:after{ content:''; position: absolute; top: 0; bottom: 0; left: 50%; margin-left: -.5px;
-	width: 1px; background: #ccc; }
+    width: 1px; background: #ccc; }
 
 .w-detail{ width: 50%; padding: 0 50px; margin-bottom: 30px; position: relative; clear: both; margin-top: -40px; }
 
@@ -199,16 +238,16 @@ font-weight: bolder;
 .w-detail:last-child{ margin-bottom: 0; }
 
 .w-detail:after{ content:''; position: absolute; top: 0; height: 18px; width: 18px; border-radius: 20px;
-	z-index: 1; border: 1px solid #aaa; background: #fff; }
+    z-index: 1; border: 1px solid #aaa; background: #fff; }
 
 .w-detail.right{ text-align: left;  float: right; }
 
 .w-detail.right:after{ left: 0; margin-left: -9px; }
-	
+
 .w-detail.left{ text-align: right;  float: left; }
 
 .w-detail.left:after{ right: 0; margin-right: -9px; }
-	
+
 .w-detail .title{ margin: 10px 0; }
 
 .w-detail .icon{ font-size: 3.5em; line-height: 1; color: #00BCD4; }
@@ -222,426 +261,383 @@ font-weight: bolder;
 .section .heading .icon.color-white{ color: #fff; }
 
 .w-detail p{
-  text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
 }
 .section .margin-bottom{ margin-bottom: 30px; }
 .wedding-details p{
-font-size: 1.2em;
+    font-size: 1.2em;
 }
 
-
+/*
 @media only screen and (max-width: 767px) {
-	.wedding-details{ margin-left: 15px; overflow: visible; }
-	
-	.wedding-details:after{ left: 0; margin-left: 0px; }
+    .wedding-details{ margin-left: 15px; overflow: visible; }
 
-	.w-detail{ width: 100%; padding: 0 0 0 30px; margin: 0 0 30px; }
+    .wedding-details:after{ left: 0; margin-left: 0px; }
 
-	.w-detail.left,
-	.w-detail.right{ text-align: left; float: none; }
+    .w-detail{ width: 100%; padding: 0 0 0 30px; margin: 0 0 30px; }
 
-	.w-detail.right:after,
-	.w-detail.left:after{ left: 0; margin-left: -9px; }
-	
-	.section{ padding: 50px 0 20px; }
+    .w-detail.left,
+    .w-detail.right{ text-align: left; float: none; }
 
-	.section .heading{ padding-bottom: 20px; }
-	
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  .wedding-details{ margin-left: 15px; overflow: visible; }
-  
-  .wedding-details:after{ left: 0; margin-left: 0px; }
+    .w-detail.right:after,
+    .w-detail.left:after{ left: 0; margin-left: -9px; }
 
-  .w-detail{ width: 100%; padding: 0 0 0 30px; margin: 0 0 30px; }
+    .section{ padding: 50px 0 20px; }
 
-  .w-detail.left,
-  .w-detail.right{ text-align: left; float: none; }
+    .section .heading{ padding-bottom: 20px; }
 
-  .w-detail.right:after,
-  .w-detail.left:after{ left: 0; margin-left: -9px; }
-  
-  .section{ padding: 50px 0 20px; }
+}*/
+/*@media (min-width: 320px) and (max-width: 480px) {
+    .wedding-details{ margin-left: 15px; overflow: visible; }
 
-  .section .heading{ padding-bottom: 20px; }
-  
-}
+    .wedding-details:after{ left: 0; margin-left: 0px; }
+
+    .w-detail{ width: 100%; padding: 0 0 0 30px; margin: 0 0 30px; }
+
+    .w-detail.left,
+    .w-detail.right{ text-align: left; float: none; }
+
+    .w-detail.right:after,
+    .w-detail.left:after{ left: 0; margin-left: -9px; }
+
+    .section{ padding: 50px 0 20px; }
+
+    .section .heading{ padding-bottom: 20px; }
+
+}*/
 .w-detail-font-icon-color{
-  color: #00BCD4;
-  opacity: 0.6;
-  font-weight: bold !important;
+    color: #00BCD4;
+    opacity: 0.6;
+    font-weight: bold !important;
 }
 
 /*-----------------  WEDDING DETAILS AREA END -----------------*/
 
+/*-------------Map Container -------------*/
+.map-area{
+    margin-bottom: 5em;
+}
+
+/*--------------- CONTACT DETAILS --------------- */
+.padding-top-bottom-px{
+    padding: 12px 0;
+}
+
+.footer-contact-font-size{
+    font-size: 1.4em;
+    margin-bottom: 0 !important;
+}
+#footer_contact_details a{
+    text-decoration: none;
+    color: #000;
+
+}
+/* ---------------- CONTACT DETAILS END----------------*/
+
+/*----------------- FOOTER -----------------*/
+
+.footer-padding{
+    padding-top: 1.3rem;
+    padding-bottom: 1.2rem;
+    font-size: 15px;
+}
+
+
+.footer-padding a{
+    text-decoration:  none;
+    color: #000;
+}
+.card-radius{
+    border-radius: 50px;
+}
+.card-opacity{
+    background:rgba(255,255,255,0.8);
+}
+.footer-rasigan-font{
+    font-size: 1.9em;
+}
+.footer-container-padding{
+    padding-top: 1em;
+    padding-bottom: 1.7em;
+}
+.footer-card-logo{
+    height: 25px;
+}
+.footer-logo-margin{
+    margin-bottom: 14px !important;
+}
+/*----------------- FOOTER END --------------------*/
+
+
 /* ----------------- BALLOON FLOW ANIMATION  -----------------*/
 section{
-      width: 100%;
-      /*height: 100%;*/
-  }
-  .balloon-container{
+    width: 100%;
+    /*height: 100%;*/
+}
+.balloon-container{
     position: absolute;
     width: 100%;
     height: 30vh;
     left: 0;
     bottom: 200px;
-  }
-  .balloon-container div{
+}
+.balloon-container div{
     position: absolute;
     display: block;
-  }
-  .balloon-container div:nth-child(1){
+}
+.balloon-container div:nth-child(1){
     left: 10%;
     animation: animate 192s linear infinite;
     animation-delay: -17s;
-    
-  }
-  .balloon-container div:nth-child(2){
+
+}
+.balloon-container div:nth-child(2){
     left: 45%;
     animation: animate 115s linear infinite;
     animation-delay: -28s;
 
-  }
-  .balloon-container div:nth-child(3){
+}
+.balloon-container div:nth-child(3){
     left: 85%;
     animation: animate 142s linear infinite;
-  }
-  @keyframes animate{
+}
+@keyframes animate{
     from {
-      bottom: 0;
+        bottom: 0;
     }
     to {
-      bottom:3480%;
+        bottom:3480%;
     }
     0%{
-      opacity: 0;
+        opacity: 0;
     }
     4%{
-      opacity: 1;
+        opacity: 1;
     }
     20%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     25%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     30%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     35%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     40%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     45%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     50%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     55%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     60%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     65%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     70%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     75%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     80%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     85%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     90%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
     95%{
-      transform: translateX(-15px) rotate(-3deg);
+        transform: translateX(-15px) rotate(-3deg);
     }
     100%{
-      transform: translateX(-15px) rotate(3deg);
+        transform: translateX(-15px) rotate(3deg);
     }
-  }
+}
 
 
 /* ----------------- BALLOON FLOW ANIMATION END -----------------*/
 
 
-/* ---------------- PROFILE CARD AREA ----------------*/
 
-.profile-card-container {
-  margin: auto;
-  width: 600px; 
-  text-align: center;
-}
-
-
-.profile-wrapper:focus {
-  outline: 0;
-}
-
-.profile-card {
-  background: white;
-  width: 300px;
-  display: inline-block;
-  margin: auto;
-  border-radius: 19px;
-  position: relative;
-  text-align: center;
-  box-shadow: -1px 15px 30px -12px black;
-  /*z-index: 9999;*/
-}
-
-
-.profile-card-image {
-  position: relative;
-  height: 230px;
-  margin-bottom: 35px;
-  border-top-left-radius: 14px;
-  border-top-right-radius: 14px;
-}
-
-.profile-card-bg-image {
-  background-image: url("../images/profile-bg.jpg");
-}
-.profile-card-bg-image img {
-  height: 280px;  
-  margin-top: -30px;
-}
-.profile-card-couple-name {
-  font-size: 2em;
-  color: black;
-  font-weight: 900;
-  margin-bottom: 5px;
-}
-.profile-card-short-description {
-  font-size: 1em
-}
-
-/* ---------------- PROFILE CARD AREA END----------------*/
-
-/*-------------Map Container -------------*/
-.map-area{
-  margin-bottom: 5em;
-}
-
-/*--------------- CONTACT DETAILS --------------- */
-.padding-top-bottom-px{
-  padding: 12px 0;
-}
-
-.footer-contact-font-size{
-  font-size: 1.4em;
-  margin-bottom: 0 !important;
-}
-#footer_contact_details a{
-  text-decoration: none;
-  color: #000;
-  
-}
-/* ---------------- CONTACT DETAILS END----------------*/
-
-
-/*----------------- FOOTER -----------------*/
-
-.footer-padding{
-  padding-top: 1.3rem;
-  padding-bottom: 1.2rem;
-  font-size: 15px;
-}
-
-
-.footer-padding a{
-  text-decoration:  none;
-  color: #000;
-}
-.card-radius{
-  border-radius: 50px;
-}
-  .card-opacity{
-    background:rgba(255,255,255,0.8);
-  }
-  .footer-rasigan-font{
-    font-size: 1.9em;
-  }
-  .footer-container-padding{
-    padding-top: 1em;
-    padding-bottom: 1.7em;
-  }
-.footer-card-logo{
-  height: 25px;  
-}
-.footer-logo-margin{
-  margin-bottom: 14px !important;
-}
-/*----------------- FOOTER END --------------------*/
-
-/*===========================================================================*/
-
-
-/* ----------------------------------------------- MOBILE VIEW  --------------------------------------------------- */
-
-
-@media (max-width: 991.98px) {
- .loader-image-margin{
-  margin-left: 12%;
-}
-  /*-------------Banner-------------- */
-.banner-couple-name{
-font-size: 7.6em;
-font-weight: bolder;
-}
-
-.banner-couple-description{
-  font-size: 2.7em;  
-}
-.banner-couple-small-font{
-  font-size: 2em;
-}
-.banner-date-font{
-  font-size: 2.3em;
-}
-.banner-holding-hand-margin{
-    margin-top: 0 !important;
-  }
-  .banner-bride-name-margin{
-    margin-left: 0 !important;
-  }
-/*------------------------Banner End--------------------------*/
-
-/*------------------------Profile Card ------------------------------------*/
-.profile-card-couple-name {
-  font-size: 2.5em;
-  color: black;
-  font-weight: 900;
-  margin-bottom: 5px;
-}
-.profile-card-short-description {
-  font-size: 2em;
-}
-
-.profile-wrapper{
-  padding-bottom: 2em;
-}
-/*------------------------Profile Card End------------------------------------*/
-
-/*-----------------------Counter Timer---------------------*/
-.counter-clockinner .counter-smalltext {
-  color: #777;
-  font-size: 1.4em;
-}
-
-/*------------------Counter Timer End ----------------------*/
-
-
-/*-------------Title Font-----------*/
-h2{
-  font-size: 2.5em;
-}
-h4{
-  font-size: 1.8em;
-}
-/*-------------*/
-
-/*-----------------------Wedding Details ----------------------*/
-.wedding-details p{
-font-size: 1.9em;
-}
-
-/*--------------- Wedding details end --------------------------*/
-/* ---------------------------- Welcome Container-----------------*/
-
-#welcome-container p{
-font-size: 1.9em
-}
-/*----------------------------------------------------------------*/
-
-/*------------------------------- Map area --------------------------------------*/
-
-.map-padding{
-  padding-top: 2%;
-}
-
-/*----------------------------------------------------------------*/
-
-
-/*----------------Contact Footer-----------------------*/
-.footer-contact-font-size{
-  font-size: 1.7em;
-  margin-bottom: 0 !important;
-}
-/*--------Contact Footer End----------------*/
-/*----------------Footer Font ---------------*/
-
-.footer-card-logo{
-  height: 25px;
-}
-
-
-/*----------------Footer Font End ---------------*/
-
-  /*------------------Balloon Animation-----------------*/
-
-.balloon-container{
-    position: absolute;
-    width: 100%;
-    height: 10vh;
-    left: 0;
-    bottom: 160px;
-  }
-  @keyframes animate{
-    from {
-      bottom: 0;
+/*-------------------Media Queries Mobile View --------------------------*/
+@media (max-width: 768px) {
+    .header-title{
+        font-size: 0.7em;
     }
-    to {
-      bottom:7030%;
+    .body-margin{
+        margin: 5px 0px;
+        background: #fff;
     }
-  }
+    .no-padding{
+        padding: 5px;
+    }
+    .header-padding{
+        padding: 8px 0;
+    }
+    .banner-couple-name{
+        font-size: 2.2em;
+    }
+    .banner-holding-hand-margin{
+        margin-top: 0 !important;
+    }
+    .banner-bride-name-margin{
+        margin-left: 0 !important;
+    }
+    .banner-couple-description{
+        font-size: 0.9em;
+    }
+    .banner-couple-small-font{
+        font-size: 0.7em;
+    }
+    .banner-date-font{
+        font-size: 0.8em;
+    }
+    .profile-card {
+        background: white;
+        width: auto;
+        display: block;
+    }
+    .profile-card-margin{
+        margin-top: 3em;
+    }
+    .padding-top-none{
+        padding-top: 0;
+    }
+    .profile-card-padding-top{
+        padding-top: 1.3em;
+    }
+    .timer-content{
+        font-size: 0.8em;
+    }
+    .counter-clockinner .counter-smalltext{
+        font-size: 0.7em;
+    }
+    .counter-clockinner span{
+        font-size: 1.3em;
+    }
+    .counter-img {
+        height: 90px;
+        /*display: none;*/
+    }
+    h4{
+        font-weight: bold;
+    }
+    .padding-x-mobile-none{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .padding-bottom-mobile-none{
+        padding-bottom: 0;
+    }
+
+    .counter-img-padding{
+        padding-top: 1.3em;
+        padding-bottom: 1em;
+    }
+    .wedding-detail-subtitle{
+        font-size: 0.8em;
+    }
+    .w-detail{
+        padding: 0 15px;
+    }
+    .wedding-details-heading{
+        font-size: 1.3em;
+    }
+    .wedding-details-content{
+        font-size: 0.85em !important;
+    }
+    .welcome-area-content-font{
+        font-size: 0.8em;
+    }
+    .most-welcome-font{
+        font-size: 1.2em;
+    }
+    .map-container-heading{
+        font-size: 1.27em;
+    }
+    .mahal-place-text{
+        font-size: 1em;
+    }
+    .mahal-address-text{
+        font-size: 0.95em;
+    }
+    iframe{
+        height: 270px;
+    }
+    .bride-map-margin{
+        margin-top: 20px;
+    }
+    .footer-contact-font-size{
+        font-size: 0.6em;
+        padding: 0 !important;
+    }
+    .footer-rasigan-font{
+        font-size: 1em;
+    }
+    .footer-logo-margin{
+        margin-bottom: 5px !important;
+    }
+    .footer-card-logo{
+        height: 15px;
+    }
+    .padding-top-bottom-px{
+        padding: 5px 2px;
+    }
+    .padding-y-mobile{
+       padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .map-area{
+        margin-bottom: 1em;
+    }
+    .footer-container-padding{
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .balloon-container{
+        position: absolute;
+        width: 100%;
+        height: 10vh;
+        left: 0;
+        bottom: 160px;
+    }
+    @keyframes animate{
+        from {
+            bottom: 0;
+        }
+        to {
+            bottom:7030%;
+        }
+    }
+    .balloon-image-size{
+        height: 50px;
+    }
+
 }
-  /*------------------Balloon Animation End-----------------*/
-
-/* ------------------------------------------- MOBILE VIEW END ------------------------------------------------------------*/
 
 
+/*Tablet - ipad media query*/
+@media (min-width: 768px) and (max-width: 1024px) {
 
-/*----------------Mobile view small devices------------------------*/
-
-@media (max-width: 767.98px) { 
-
-  /*------------------Balloon Animation-----------------*/
-.balloon-container{
-    position: absolute;
-    width: 100%;
-    height: 25vh;
-    left: 0;
-    bottom: 160px;
-  }
-  @keyframes animate{
-    from {
-      bottom: 0;
+    .profile-card-margin{
+        margin-top: 0;
     }
-    to {
-      bottom:3210%;
+    .counter-img {
+        height: 150px;
+        /*display: none;*/
     }
-  }
-
- }
-  /*------------------Balloon Animation End-----------------*/
-
-
-/* ---------------- MOBILE VIEW SMALL DEVICES END ----------------*/
-
-
-
-
-
-
+}

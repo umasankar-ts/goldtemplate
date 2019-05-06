@@ -84,7 +84,7 @@ p{
     margin-top: 40vh;
 }
 .loader-image-style{
-    height: 200px;
+    height: 100px;
 }
 
 /*----------------- Header -----------------*/
@@ -615,6 +615,9 @@ section{
     }
     .balloon-image-size{
         height: 50px;
+    }
+    .loader-container{
+        margin-top: 32vh;
     }
 
 }

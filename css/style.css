@@ -360,12 +360,7 @@ p{
     padding-top: 1em;
     padding-bottom: 1.7em;
 }
-.footer-card-logo{
-    height: 25px;
-}
-.footer-logo-margin{
-    margin-bottom: 14px !important;
-}
+
 /*----------------- FOOTER END --------------------*/
 
 
@@ -587,12 +582,7 @@ section{
     .footer-rasigan-font{
         font-size: 1em;
     }
-    .footer-logo-margin{
-        margin-bottom: 5px !important;
-    }
-    .footer-card-logo{
-        height: 15px;
-    }
+
     .padding-top-bottom-px{
         padding: 5px 2px;
     }

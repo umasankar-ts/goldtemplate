@@ -1,0 +1,175 @@
+@media (max-width:768px) {
+    .header-title {
+        font-size: 1.28em
+    }
+    .body-margin {
+        margin: 5px 0;
+        background: #fff
+    }
+    .no-padding {
+        padding: 5px
+    }
+    .header-padding {
+        padding: 8px 0
+    }
+    .banner-couple-name {
+        font-size: 2.7em
+    }
+    .banner-holding-hand-margin {
+        margin-top: 0!important
+    }
+    .banner-bride-name-margin {
+        margin-left: 0!important
+    }
+    .banner-couple-description {
+        font-size: 1.12em
+    }
+    .banner-couple-small-font {
+        font-size: .9em
+    }
+    .banner-date-font {
+        font-size: 1em
+    }
+    .profile-card {
+        background: #fff;
+        width: auto;
+        display: block
+    }
+    .profile-card-margin {
+        margin-top: 3em
+    }
+    .padding-top-none {
+        padding-top: 0
+    }
+    .profile-card-padding-top {
+        padding-top: 1.3em
+    }
+    .timer-content {
+        font-size: 1em
+    }
+    .counter-clockinner .counter-smalltext {
+        font-size: 1.18em;
+    }
+    .counter-clockinner span {
+        font-size: 2.4em
+    }
+    .counter-img {
+        height: 90px
+    }
+    h4 {
+        font-weight: 700
+    }
+    .padding-x-mobile-none {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    .padding-bottom-mobile-none {
+        padding-bottom: 0
+    }
+    .counter-img-padding {
+        padding-top: 1.3em;
+        padding-bottom: 1em
+    }
+    .wedding-detail-subtitle {
+        font-size: 1.1em
+    }
+    .w-detail {
+        padding: 0 15px
+    }
+    .wedding-details-heading {
+        font-size: 1.3em
+    }
+    .wedding-details-content {
+        font-size: 1.18em!important
+    }
+    .welcome-area-content-font {
+        font-size: 1.4em;
+    }
+    .most-welcome-font {
+        font-size: 1.28em;
+    }
+    .map-container-heading {
+        font-size: 1.47em;
+    }
+    .mahal-place-text {
+        font-size: 1.2em;
+    }
+    .mahal-address-text {
+        font-size: 1.1em;
+    }
+    iframe {
+        height: 270px;
+    }
+    .bride-map-margin {
+        margin-top: 20px
+    }
+    .footer-contact-font-size {
+        font-size: 1em;
+        padding: 0 5px !important;
+    }
+    .footer-rasigan-font {
+        font-size: 1.25em;
+    }
+    .padding-top-bottom-px {
+        padding: 5px 2px;
+    }
+    .padding-y-mobile {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .map-area {
+        margin-bottom: 1em;
+    }
+    .footer-container-padding {
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+    .balloon-container {
+        position: absolute;
+        width: 100%;
+        height: 10vh;
+        left: 0;
+        bottom: 160px;
+    }
+    @keyframes animate {
+        from {
+            bottom: 0;
+        }
+        to {
+            bottom: 16800%;
+        }
+    }
+    .balloon-image-size {
+        height: 50px;
+    }
+
+    .profile-card-container {
+        width: 280px;
+    }
+    .profile-card-couple-name {
+        font-size: 1.8em;
+    }
+    .banner-name-padding-top {
+        padding-top: 15px;
+    }
+    .wedding-details-image {
+        height: 35px
+    }
+    .counter-mobile-view-img{
+        height: 170px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .profile-card-margin {
+        margin-top: 0;
+    }
+    .counter-img {
+        height: 150px;
+    }
+}
+
+
+
+
+

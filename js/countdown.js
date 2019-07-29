@@ -1,6 +1,6 @@
 
 // Set the date we are counting down to
-var countDownDate = new Date("May 20, 2019 22:31:00").getTime();
+var countDownDate = new Date("June 30, 2019 23:10:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function(){
@@ -23,11 +23,17 @@ var x = setInterval(function(){
   // If the count down is over, write some text
   if(distance < 0){
     clearInterval(x);
-    document.getElementById('timer_count').hidden = "hidden";  
-    document.getElementById('event_completed').hidden = "";    
+    document.getElementById('timer_count').hidden = "hidden";
+    document.getElementById('event_completed').hidden = "";
 
   }else{
     document.getElementById("timer_count").hidden = "";
     document.getElementById('event_completed').hidden = "hidden";
   }
+  if((distance > 0) && ($(window).width() <= 767)){
+    document.getElementById('mobile-view-counter-img').hidden = "";
+  }else {
+    document.getElementById('mobile-view-counter-img').hidden = "hidden";
+  }
+
 }, 1000);

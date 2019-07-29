@@ -1,606 +1,554 @@
-body{
-    background: #00BCD4;
-    font-family: 'ZCOOL XiaoWei', serif;
-
+body {
+    background: #00bcd4;
+    font-family: 'ZCOOL XiaoWei', serif
 }
 
-
-/*--------------COMMON CLASS ---------------------*/
-.body-margin{
+.body-margin {
     margin: 30px 10px;
-    background: #fff;
+    background: #fff
 }
-.body-card-shadow{
-    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3), 0 17px 17px 0 rgba(0, 0, 0, 0.15);
+
+.body-card-shadow {
+    box-shadow: 0 27px 55px 0 rgba(0, 0, 0, .3), 0 17px 17px 0 rgba(0, 0, 0, .15)
 }
-.padding-bottom-2em{
-    padding-bottom:  2em;
+
+.padding-bottom-2em {
+    padding-bottom: 2em
 }
-.small-heading-shadow{
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+
+.small-heading-shadow {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, .3)
 }
-.banner-map-card-shadow{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+.banner-map-card-shadow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .23)
 }
-.card-border-none{
-    border: none;
+
+.card-border-none {
+    border: none
 }
-.margin-bottom-none{
-    margin-bottom: 0;
+
+.margin-bottom-none {
+    margin-bottom: 0
 }
-.padding-top-bottom{
+
+.padding-top-bottom {
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 3em
 }
-.heading-text-shadow{
-    text-shadow: 2px 6px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3);
+
+.heading-text-shadow {
+    text-shadow: 2px 6px 6px rgba(0, 0, 0, .2), 0 -5px 35px rgba(255, 255, 255, .3)
 }
-.margin-top-3-percent{
-    margin-top: 3%;
+
+.margin-top-3-percent {
+    margin-top: 3%
 }
-.font-bold{
-    font-weight: bold;
+
+.font-bold {
+    font-weight: 700
 }
-.padding-5px{
-    padding: 5px;
+
+.padding-5px {
+    padding: 5px
 }
-h2{
-    font-size: 2em;
+
+h2 {
+    font-size: 2em
 }
-h4{
-    font-size: 1.6em;
+
+h4 {
+    font-size: 1.6em
 }
-p{
-    font-size: 1.7em;
+
+p {
+    font-size: 1.7em
 }
-#image-shadow{
-    -webkit-filter: drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
-    filter:drop-shadow(8px 8px 8px rgba(0,0,0,0.3));
+
+#image-shadow {
+    -webkit-filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, .3));
+    filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, .3))
 }
-#divider-image-shadow{
-    -webkit-filter: drop-shadow(8px 8px 5px rgba(0,0,0,0.3));
-    filter:drop-shadow(8px 8px 5px rgba(0,0,0,0.3));
+
+#divider-image-shadow {
+    -webkit-filter: drop-shadow(8px 8px 5px rgba(0, 0, 0, .3));
+    filter: drop-shadow(8px 8px 5px rgba(0, 0, 0, .3))
 }
-.card-radius{
-    border-radius: 50px;
+
+.card-radius {
+    border-radius: 50px
 }
-.padding-x-mobile-none{
+
+.padding-x-mobile-none {
     padding-top: 3em;
-    padding-bottom: 3em;
+    padding-bottom: 3em
 }
-.padding-left-right{
+
+.padding-left-right {
     padding-left: 2em;
-    padding-right: 2em;
-}
-.very-small-shadow{
-    text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+    padding-right: 2em
 }
 
-/*----------------- COMMON CLASS END --------------------*/
+.very-small-shadow {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .3)
+}
+
+/*Loader heart animation*/
 
 
-/*-----------------LOADER -------------------------*/
-.loader-container{
-    margin-top: 40vh;
+.beatingHeart{
+    width:50px;
+    margin: 45vh auto;
+    height: 50px;
+}
+
+.beatingHeart .heart {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    opacity: 0.6;
+    -webkit-animation: beat 3.0s  infinite ease-in-out;
+}
+.heart:before , .heart:after {
+    position: absolute;
+    content: "";
+    left: 25px;
+    top: 0;
+    width: 25px;
+    height: 40px;
+    background: #FF6347;
+    -moz-border-radius: 50px 50px 0 0;
+    border-radius: 50px 50px 0 0;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 0 100%;
+    -moz-transform-origin: 0 100%;
+    -ms-transform-origin: 0 100%;
+    -o-transform-origin: 0 100%;
+    transform-origin: 0 100%;
+}
+
+.fushiaHeart:before , .fushiaHeart:after
+{
+    background: #FF4500;
+}
+.pinkHeart:before , .pinkHeart:after{
+    background: #FF4500;
+}
+.heart:after{
+    left: 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    -ms-transform-origin: 100% 100%;
+    -o-transform-origin: 100% 100%;
+    transform-origin :100% 100%;
+}
+
+.beatingHeart .heart2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+.beatingHeart .heart3 {
+    -webkit-animation-delay: -1.5s;
+    animation-delay: -1.5s;
+}
+
+.beatingHeart .heart4 {
+    -webkit-animation-delay: -2.0s;
+    animation-delay: -2.0s;
+}
+
+@-webkit-keyframes beat {
+    0%, 100% { -webkit-transform: scale(0.0) }
+    50% { -webkit-transform: scale(1.0) }
+}
+.heart:before , .heart:after {
+    background: #FF0000;
 }
 
 
-/*----------------- Header -----------------*/
-.header-padding{
+
+.header-padding {
     padding-top: 1em;
-    padding-bottom: 1em;
+    padding-bottom: 1em
 }
-.header-title{
-    font-size: 2em;
+
+.header-title {
+    font-size: 2em
 }
-/*----------------- Header END --------------------*/
 
-
-/*----------------- BANNER -----------------*/
-
-.banner-couple-name{
+.banner-couple-name {
     font-size: 4.5em;
     font-weight: bolder;
-    background: -moz-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
-    background: -webkit-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
-    background: -ms-linear-gradient(0deg, #c31432 0%, #240b36 55%, #c31432 100%);
+    background: -moz-linear-gradient(0deg, #c31432 0, #240b36 55%, #c31432 100%);
+    background: -webkit-linear-gradient(0deg, #c31432 0, #240b36 55%, #c31432 100%);
+    background: -ms-linear-gradient(0deg, #c31432 0, #240b36 55%, #c31432 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.banner-couple-description{
-    font-size: 2.3em;
-}
-.banner-couple-small-font{
-    font-size: 1.7em;
-}
-.banner-date-font{
-    font-size: 1.7em;
-}
-.banner-holding-hand-margin{
-    margin-top: 5%;
-}
-.banner-bride-name-margin{
-    margin-left: -70px;
+    -webkit-text-fill-color: transparent
 }
 
-/*----------------- BANNER END -----------------*/
+.banner-couple-description {
+    font-size: 2.3em
+}
 
+.banner-couple-small-font {
+    font-size: 1.7em
+}
 
-/* ---------------- PROFILE CARD AREA ----------------*/
+.banner-date-font {
+    font-size: 1.7em
+}
+
+.banner-holding-hand-margin {
+    margin-top: 5%
+}
+
+.banner-bride-name-margin {
+    margin-left: -70px
+}
 
 .profile-card-container {
     margin: auto;
     width: 600px;
-    text-align: center;
+    text-align: center
 }
 
-
 .profile-wrapper:focus {
-    outline: 0;
+    outline: 0
 }
 
 .profile-card {
-    background: white;
+    background: #fff;
     width: 300px;
     display: inline-block;
     margin: auto;
     border-radius: 19px;
     position: relative;
     text-align: center;
-    box-shadow: -1px 15px 30px -12px black;
-    /*z-index: 9999;*/
+    box-shadow: -1px 15px 30px -12px #000
 }
-
 
 .profile-card-image {
     position: relative;
     height: 230px;
     margin-bottom: 35px;
     border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
+    border-top-right-radius: 14px
 }
 
 .profile-card-bg-image {
-    background-image: url("../images/profile-bg.jpg");
+    background-image: url(../images/profile-bg.webp)
 }
+
 .profile-card-bg-image img {
     height: 280px;
-    margin-top: -30px;
+    margin-top: -30px
 }
+
 .profile-card-couple-name {
     font-size: 2em;
-    color: black;
+    color: #000;
     font-weight: 900;
-    margin-bottom: 5px;
+    margin-bottom: 5px
 }
+
 .profile-card-short-description {
     font-size: 1em
 }
 
-/* ---------------- PROFILE CARD AREA END----------------*/
-
-/*---------------- COUNTDOWN TIMER ----------------*/
-
 .align-items-end {
-    align-items: flex-end !important;
+    align-items: flex-end!important
 }
 
 .justify-content-center {
-    justify-content: center !important;
+    justify-content: center!important
 }
 
 .counter-clock-shadow {
-    -webkit-box-shadow: 0px 23px 34px -26px black;
-    -moz-box-shadow: 0px 23px 34px -26px black;
-    box-shadow: 0px 23px 34px -26px black;
+    -webkit-box-shadow: 0 23px 34px -26px #000;
+    -moz-box-shadow: 0 23px 34px -26px #000;
+    box-shadow: 0 23px 34px -26px #000
 }
 
 .counter-clockinner {
     text-align: center;
-    padding: 30px 0px;
+    padding: 30px 0
 }
 
 .counter-clockinner span {
     font-size: 3.2em;
-    font-weight: 600;
+    font-weight: 600
 }
 
 .counter-clockinner .counter-smalltext {
-    color: #777;
-    font-size: 1.2em;
+    font-size: 1.2em
 }
+
 .counter-clockinner span {
-    background: -moz-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
-    background: -webkit-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
-    background: -ms-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+    background: -moz-linear-gradient(0deg, #ca2fff 0, #8e96f8 55%, #53fff0 100%);
+    background: -webkit-linear-gradient(0deg, #ca2fff 0, #8e96f8 55%, #53fff0 100%);
+    background: -ms-linear-gradient(0deg, #ca2fff 0, #8e96f8 55%, #53fff0 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent
 }
 
-
-
-
-/*-----------------COUNTDOWN TIMER END--------------------*/
-
-/* ----------------- WEDDING DETAILS AREA -----------------*/
-
-.wedding-details{ overflow: hidden; position: relative; }
-
-.wedding-details:after{ content:''; position: absolute; top: 0; bottom: 0; left: 50%; margin-left: -.5px;
-    width: 1px; background: #ccc; }
-
-.w-detail{ width: 50%; padding: 0 50px; margin-bottom: 30px; position: relative; clear: both; margin-top: -40px; }
-
-.w-detail:first-child{ margin-top: 0; }
-
-.w-detail:last-child{ margin-bottom: 0; }
-
-.w-detail:after{ content:''; position: absolute; top: 0; height: 18px; width: 18px; border-radius: 20px;
-    z-index: 1; border: 1px solid #aaa; background: #fff; }
-
-.w-detail.right{ text-align: left;  float: right; }
-
-.w-detail.right:after{ left: 0; margin-left: -9px; }
-
-.w-detail.left{ text-align: right;  float: left; }
-
-.w-detail.left:after{ right: 0; margin-right: -9px; }
-
-.w-detail .title{ margin: 10px 0; }
-
-.w-detail .icon{ font-size: 3.5em; line-height: 1; color: #00BCD4; }
-
-/*.section{ padding: 100px 0 70px; }*/
-
-.section .heading{ padding-bottom: 40px; }
-
-.section .heading .icon{ font-size: 18px; margin-top: 20px; color: #E45F74; }
-
-.section .heading .icon.color-white{ color: #fff; }
-
-.w-detail p{
-    text-shadow: 1px 2px 1px rgba(0,0,0,0.3);
-}
-.section .margin-bottom{ margin-bottom: 30px; }
-.wedding-details p{
-    font-size: 1.2em;
+.wedding-details {
+    overflow: hidden;
+    position: relative
 }
 
-.w-detail-font-icon-color{
-    color: #00BCD4;
-    opacity: 0.6;
-    font-weight: bold !important;
+.wedding-details:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -.5px;
+    width: 1px;
+    background: #ccc
 }
 
-/*-----------------  WEDDING DETAILS AREA END -----------------*/
-
-/*-------------Map Container -------------*/
-.map-area{
-    margin-bottom: 5em;
+.w-detail {
+    width: 50%;
+    padding: 0 50px;
+    margin-bottom: 30px;
+    position: relative;
+    clear: both;
+    margin-top: -40px
 }
 
-/*--------------- CONTACT DETAILS --------------- */
-.padding-top-bottom-px{
-    padding: 12px 0;
+.w-detail:first-child {
+    margin-top: 0
 }
 
-.footer-contact-font-size{
+.w-detail:last-child {
+    margin-bottom: 0
+}
+
+.w-detail:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 18px;
+    width: 18px;
+    border-radius: 20px;
+    z-index: 1;
+    border: 1px solid #aaa;
+    background: #fff
+}
+
+.w-detail.right {
+    text-align: left;
+    float: right
+}
+
+.w-detail.right:after {
+    left: 0;
+    margin-left: -9px
+}
+
+.w-detail.left {
+    text-align: right;
+    float: left
+}
+
+.w-detail.left:after {
+    right: 0;
+    margin-right: -9px
+}
+
+.w-detail .title {
+    margin: 10px 0
+}
+
+.w-detail .icon {
+    font-size: 3.5em;
+    line-height: 1;
+    color: #00bcd4
+}
+
+.section .heading {
+    padding-bottom: 40px
+}
+
+.section .heading .icon {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #e45f74
+}
+
+.section .heading .icon.color-white {
+    color: #fff
+}
+
+.section .margin-bottom {
+    margin-bottom: 30px
+}
+
+.wedding-details p {
+    font-size: 1.2em
+}
+
+.w-detail-font-icon-color {
+    color: #00bcd4;
+    opacity: .6
+}
+
+.map-area {
+    margin-bottom: 5em
+}
+
+.padding-top-bottom-px {
+    padding: 12px 20px
+}
+
+.footer-contact-font-size {
     font-size: 1.4em;
-    margin-bottom: 0 !important;
+    margin-bottom: 0!important
 }
-#footer_contact_details a{
+
+#footer_contact_details a {
     text-decoration: none;
-    color: #000;
-
+    color: #000
 }
-/* ---------------- CONTACT DETAILS END----------------*/
 
-/*----------------- FOOTER -----------------*/
-
-.footer-padding{
+.footer-padding {
     padding-top: 1.3rem;
     padding-bottom: 1.2rem;
-    font-size: 15px;
+    font-size: 15px
 }
 
+.footer-padding a {
+    text-decoration: none;
+    color: #000
+}
 
-.footer-padding a{
-    text-decoration:  none;
-    color: #000;
+.card-radius {
+    border-radius: 50px
 }
-.card-radius{
-    border-radius: 50px;
+
+.card-opacity {
+    background: rgba(255, 255, 255, .8)
 }
-.card-opacity{
-    background:rgba(255,255,255,0.8);
+
+.footer-rasigan-font {
+    font-size: 1.9em
 }
-.footer-rasigan-font{
-    font-size: 1.9em;
-}
-.footer-container-padding{
+
+.footer-container-padding {
     padding-top: 1em;
-    padding-bottom: 1.7em;
+    padding-bottom: 1.7em
 }
 
-/*----------------- FOOTER END --------------------*/
-
-
-/* ----------------- BALLOON FLOW ANIMATION  -----------------*/
-section{
-    width: 100%;
-    /*height: 100%;*/
+section {
+    width: 100%
 }
-.balloon-container{
+
+.balloon-container {
     position: absolute;
     width: 100%;
     height: 30vh;
     left: 0;
-    bottom: 200px;
+    bottom: 200px
 }
-.balloon-container div{
+
+.balloon-container div {
     position: absolute;
-    display: block;
+    display: block
 }
-.balloon-container div:nth-child(1){
+
+.balloon-container div:nth-child(1) {
     left: 10%;
     animation: animate 192s linear infinite;
-    animation-delay: -17s;
-
+    animation-delay: -17s
 }
-.balloon-container div:nth-child(2){
+
+.balloon-container div:nth-child(2) {
     left: 45%;
     animation: animate 115s linear infinite;
-    animation-delay: -28s;
+    animation-delay: -28s
+}
 
-}
-.balloon-container div:nth-child(3){
+.balloon-container div:nth-child(3) {
     left: 85%;
-    animation: animate 142s linear infinite;
+    animation: animate 142s linear infinite
 }
-@keyframes animate{
+
+@keyframes animate {
     from {
-        bottom: 0;
+        bottom: 0
     }
     to {
-        bottom:3480%;
+        bottom: 3480%
     }
-    0%{
-        opacity: 0;
+    0% {
+        opacity: 0
     }
-    4%{
-        opacity: 1;
+    4% {
+        opacity: 1
     }
-    20%{
-        transform: translateX(-15px) rotate(3deg);
+    20% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    25%{
-        transform: translateX(-15px) rotate(-3deg);
+    25% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    30%{
-        transform: translateX(-15px) rotate(3deg);
+    30% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    35%{
-        transform: translateX(-15px) rotate(-3deg);
+    35% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    40%{
-        transform: translateX(-15px) rotate(3deg);
+    40% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    45%{
-        transform: translateX(-15px) rotate(-3deg);
+    45% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    50%{
-        transform: translateX(-15px) rotate(3deg);
+    50% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    55%{
-        transform: translateX(-15px) rotate(-3deg);
+    55% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    60%{
-        transform: translateX(-15px) rotate(3deg);
+    60% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    65%{
-        transform: translateX(-15px) rotate(-3deg);
+    65% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    70%{
-        transform: translateX(-15px) rotate(3deg);
+    70% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    75%{
-        transform: translateX(-15px) rotate(-3deg);
+    75% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    80%{
-        transform: translateX(-15px) rotate(3deg);
+    80% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    85%{
-        transform: translateX(-15px) rotate(-3deg);
+    85% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    90%{
-        transform: translateX(-15px) rotate(3deg);
+    90% {
+        transform: translateX(-15px) rotate(3deg)
     }
-    95%{
-        transform: translateX(-15px) rotate(-3deg);
+    95% {
+        transform: translateX(-15px) rotate(-3deg)
     }
-    100%{
-        transform: translateX(-15px) rotate(3deg);
+    100% {
+        transform: translateX(-15px) rotate(3deg)
     }
 }
 
 
-/* ----------------- BALLOON FLOW ANIMATION END -----------------*/
 
 
-
-/*-------------------Media Queries Mobile View --------------------------*/
-@media (max-width: 768px) {
-    .header-title{
-        font-size: 0.7em;
-    }
-    .body-margin{
-        margin: 5px 0px;
-        background: #fff;
-    }
-    .no-padding{
-        padding: 5px;
-    }
-    .header-padding{
-        padding: 8px 0;
-    }
-    .banner-couple-name{
-        font-size: 2.2em;
-    }
-    .banner-holding-hand-margin{
-        margin-top: 0 !important;
-    }
-    .banner-bride-name-margin{
-        margin-left: 0 !important;
-    }
-    .banner-couple-description{
-        font-size: 0.9em;
-    }
-    .banner-couple-small-font{
-        font-size: 0.7em;
-    }
-    .banner-date-font{
-        font-size: 0.8em;
-    }
-    .profile-card {
-        background: white;
-        width: auto;
-        display: block;
-    }
-    .profile-card-margin{
-        margin-top: 3em;
-    }
-    .padding-top-none{
-        padding-top: 0;
-    }
-    .profile-card-padding-top{
-        padding-top: 1.3em;
-    }
-    .timer-content{
-        font-size: 0.8em;
-    }
-    .counter-clockinner .counter-smalltext{
-        font-size: 0.7em;
-    }
-    .counter-clockinner span{
-        font-size: 1.3em;
-    }
-    .counter-img {
-        height: 90px;
-        /*display: none;*/
-    }
-    h4{
-        font-weight: bold;
-    }
-    .padding-x-mobile-none{
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-    .padding-bottom-mobile-none{
-        padding-bottom: 0;
-    }
-
-    .counter-img-padding{
-        padding-top: 1.3em;
-        padding-bottom: 1em;
-    }
-    .wedding-detail-subtitle{
-        font-size: 0.8em;
-    }
-    .w-detail{
-        padding: 0 15px;
-    }
-    .wedding-details-heading{
-        font-size: 1.3em;
-    }
-    .wedding-details-content{
-        font-size: 0.85em !important;
-    }
-    .welcome-area-content-font{
-        font-size: 0.8em;
-    }
-    .most-welcome-font{
-        font-size: 1.2em;
-    }
-    .map-container-heading{
-        font-size: 1.27em;
-    }
-    .mahal-place-text{
-        font-size: 1em;
-    }
-    .mahal-address-text{
-        font-size: 0.95em;
-    }
-    iframe{
-        height: 270px;
-    }
-    .bride-map-margin{
-        margin-top: 20px;
-    }
-    .footer-contact-font-size{
-        font-size: 0.6em;
-        padding: 0 !important;
-    }
-    .footer-rasigan-font{
-        font-size: 1em;
-    }
-
-    .padding-top-bottom-px{
-        padding: 5px 2px;
-    }
-    .padding-y-mobile{
-       padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .map-area{
-        margin-bottom: 1em;
-    }
-    .footer-container-padding{
-        padding-top: 1em;
-        padding-bottom: 1em;
-    }
-
-    .balloon-container{
-        position: absolute;
-        width: 100%;
-        height: 10vh;
-        left: 0;
-        bottom: 160px;
-    }
-    @keyframes animate{
-        from {
-            bottom: 0;
-        }
-        to {
-            bottom:8200%;
-        }
-    }
-    .balloon-image-size{
-        height: 50px;
-    }
-    .loader-container{
-        margin-top: 42vh;
-    }
-    .profile-card-container {
-        width: 280px;
-    }
-    .profile-card-couple-name {
-        font-size: 1.6em;
-    }
-    .banner-name-padding-top{
-        padding-top: 15px;
-    }
-
-}
-
-
-/*Tablet - ipad media query*/
-@media (min-width: 768px) and (max-width: 1024px) {
-
-    .profile-card-margin{
-        margin-top: 0;
-    }
-    .counter-img {
-        height: 150px;
-        /*display: none;*/
-    }
-}
